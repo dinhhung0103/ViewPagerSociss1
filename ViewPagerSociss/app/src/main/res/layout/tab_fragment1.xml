@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    tools:context="com.example.user.viewpagersociss.TabFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:src="@drawable/thayba"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Thầy giáo ba chia tay FFQ"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/editText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/k7"/>
+
+            <TextView
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textPersonName"
+                android:paddingBottom="70dp"
+                android:paddingTop="50dp"
+                android:text="chân dung cô gái K7 xin đẹp xuất hiện trên stream thầy ba" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ba1"/>
+
+            <TextView
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textPersonName"
+                android:paddingBottom="50dp"
+                android:paddingTop="50dp"
+                android:text="FFQ đại thắng CR"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
